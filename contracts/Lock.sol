@@ -12,6 +12,8 @@ contract Lock {
     address payable public owner;
 
     event Withdrawal(uint amount, uint when);
+    event TestEvent (uint amount);
+
 
     constructor(uint _unlockTime) payable {
         require(
@@ -26,7 +28,7 @@ contract Lock {
     function lalala () public {
 
          console.log("test  %o", unlockTime, block.timestamp);
-
+         emit TestEvent(89898080);
 
     }
     function withdraw() public {
