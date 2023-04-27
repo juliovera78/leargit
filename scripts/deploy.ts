@@ -13,6 +13,13 @@ async function main() {
   await lock.deployed();
 
   console.log(`Lock with 1 ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`);
+
+  const Token = await ethers.getContractFactory("MyToken");
+  const token = await Token.deploy();
+
+  console.log(`Token deployed to ${token.address}`);
+
+
 }
 
 // We recommend this pattern to be able to use async/await everywhere
