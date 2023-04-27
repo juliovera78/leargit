@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
+// import "hardhat/console.sol";
  import "hardhat/console.sol";
 // more lines and more code
- import "hardhat/console.sol";
 
 
 
@@ -23,12 +23,6 @@ contract Lock {
         owner = payable(msg.sender);
     }
 
-    function lalala () public {
-
-         console.log("test  %o", unlockTime, block.timestamp);
-
-
-    }
     function withdraw() public {
         // Uncomment this line, and the import of "hardhat/console.sol", to print a log in your terminal
         console.log("Unlock time is %o and block timestamp is %o", unlockTime, block.timestamp);
