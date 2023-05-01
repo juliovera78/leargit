@@ -3,8 +3,6 @@ pragma solidity ^0.8.9;
 
  import "hardhat/console.sol";
 // more lines and more code
- import "hardhat/console.sol";
-
 
 
 contract Lock {
