@@ -19,6 +19,10 @@ async function main() {
 
   console.log(`Token deployed to ${token.address}`);
 
+  const Nft = await ethers.getContractFactory("MyNft");
+  const nft = await Nft.deploy();
+
+  console.log(`Nft deployed to ${nft.address}`);
 
 }
 
