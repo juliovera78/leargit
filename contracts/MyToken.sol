@@ -120,4 +120,26 @@ contract MyToken is ERC20 {
         
     }
 */
+
+/*
+How To Resolve Merge Conflicts In Git Pull Requests?
+So, now that you know what is a merge conflict and when does it occur, let’s see how to fix it!
+
+Follow these steps to resolve merge conflicts in Git pull requests:
+
+We will make sure that code on both the branches is updated with the remote. If not, first take pull of both the branches or push your local changes if any.
+Switch to the branch you want to merge using git checkout command.
+Try to merge locally like this:
+git pull <the parent branch> origin 
+You will see an output similar to this:
+Auto-merging origin_<file_name>
+CONFLICT (content): Merge conflict in origin_<file_name>
+Automatic merge failed; fix conflicts and then commit the result.
+When you open the conflicting file, you will see something like this:
+int i = 10;
+<<<<<< HEAD
+System.out.println(i);
+====== master
+System.out.println("Hello!");
+*/
 }
