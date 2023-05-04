@@ -3,11 +3,14 @@ pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
+
+contract MyToken is ERC20 {
+=======
 /*contract MyToken is ERC20 {
     constructor() ERC20("MyToken", "MTK") {
         _mint(msg.sender, 990000 * 10 ** decimals());
     }
-}*/
+}
 
 /*function withdraw() public {
         // Uncomment this line, and the import of "hardhat/console.sol", to print a log in your terminal
@@ -42,6 +45,14 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 
 
+
+
+
+//contract MyToken is ERC20 {
+//    constructor() ERC20("MyToken", "MTK") {
+//        _mint(msg.sender, 10000 * 10 ** decimals());
+//    }
+//}
 
 contract MyToken is ERC20 {
     constructor() ERC20("MyToken", "MTK") {
@@ -64,6 +75,7 @@ contract MyToken is ERC20 {
         
     }
 */
+
 
 
 
