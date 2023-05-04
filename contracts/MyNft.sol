@@ -10,6 +10,22 @@ unction _baseURI() internal pure override returns (string memory) {
     }
 */
 
+/*contract MyNft is ERC721 {
+    constructor() ERC721("MyNft", "ARBI") {}
+
+    function _baseURI() internal pure override returns (string memory) {
+        return "https://docs.openzeppelin.com/contracts/4.x/wizard";
+    }
+}
+
+
+contract MyNft is ERC721 {
+    constructor() ERC721("MyNft", "ARBI") {}
+
+    function _baseURI() internal pure override returns (string memory) {
+        return "https://docs.openzeppelin.com/contracts/4.x/wizard";
+    }
+}*/
 contract MyNft is ERC721 {
     constructor() ERC721("MyNft", "ARBI") {}
 
