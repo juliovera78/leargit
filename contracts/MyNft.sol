@@ -7,6 +7,8 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 //cambio tin 10
 //cambio tin 11
 //cambio despues de revert git 14
+//cambio de tin_12
+
 
 
 /*
