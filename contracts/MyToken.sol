@@ -12,7 +12,7 @@ contract MyToken is ERC20 {
 //cambio desde web de github subido por julio
 
 
-// cambios de tin_15
+// cambios de tin_15 y cosas que le agregue desde la web
 
 /*function withdraw() public {
         // Uncomment this line, and the import of "hardhat/console.sol", to print a log in your terminal
