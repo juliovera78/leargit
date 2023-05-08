@@ -11,6 +11,7 @@ contract MyToken is ERC20 {
 }
 
 
+// cambio de tin_13
 //cambio de julio_13
 
 /*function withdraw() public {
