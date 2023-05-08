@@ -6,9 +6,10 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract MyToken is ERC20 {
     constructor() ERC20("MyToken", "MTK") {
-        _mint(msg.sender, 770000 * 10 ** decimals());
+        _mint(msg.sender, 950000 * 10 ** decimals());
     }
 }
+//cambio desde web de github subido por julio
 
 
 // cambios de tin_15
