@@ -6,13 +6,14 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract MyToken is ERC20 {
     constructor() ERC20("MyToken", "MTK") {
-        _mint(msg.sender, 770000 * 10 ** decimals());
+        _mint(msg.sender, 750000 * 10 ** decimals());
     }
 }
-
-
 // cambio de tin_13
 //cambio de julio_13
+// cambio de julio_14
+cambio desde web de github subido por julio
+
 
 /*function withdraw() public {
         // Uncomment this line, and the import of "hardhat/console.sol", to print a log in your terminal
